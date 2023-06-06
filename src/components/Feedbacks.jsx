@@ -52,7 +52,7 @@ const Feedbacks = () => {
                 </motion.div>
             </div>
             <div
-                className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+                className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-evenly`}>
                 {testimonials.map((testimonial, index) => (
                     <FeedbackCard
                         key={testimonial.name}
@@ -65,4 +65,4 @@ const Feedbacks = () => {
     );
 };
 
-export default SectionWrapper(Feedbacks, "");
+export default SectionWrapper(Feedbacks, "feedbacks");

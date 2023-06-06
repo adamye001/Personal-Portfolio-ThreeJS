@@ -55,7 +55,7 @@ const About = () => {
                 trends to enhance my skills. Let's collaborate to create
                 exceptional web experiences.
             </motion.p>
-            <div className="mt-20 flex flex-wrap gap-10">
+            <div className="mt-20 flex flex-wrap gap-10 justify-evenly">
                 {services.map((service, index) => (
                     <ServiceCard
                         key={service.title}
