@@ -14,16 +14,16 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    nextjs,
     lepao,
     hypeeyes,
     yf,
     sakura,
-    carrent,
-    jobit,
-    tripguide,
+    foodOrder,
     threejs,
     UoM,
+    portfolio,
+    js
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +41,7 @@ export const navLinks = [
     },
     {
         id: "feedbacks",
-        title: "Feedbacks"
+        title: "Feedbacks",
     },
     {
         id: "contact",
@@ -55,7 +55,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Frontend Developer",
         icon: mobile,
     },
     {
@@ -94,6 +94,10 @@ const technologies = [
         icon: redux,
     },
     {
+        name: "nextjs",
+        icon: nextjs,
+    },
+    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
@@ -116,10 +120,6 @@ const technologies = [
     {
         name: "figma",
         icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 
@@ -235,16 +235,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Personal Portfolio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "This is my personal portfolio project, showcasing my projects and skills. It is built using various technologies including Three.js, Tailwind CSS, Framer Motion, and React JS.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "threejs",
                 color: "green-text-gradient",
             },
             {
@@ -252,50 +252,49 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: portfolio,
+        source_code_link:
+            "https://github.com/adamye001/Personal-Portfolio-ThreeJS",
     },
     {
-        name: "Job IT",
+        name: "Food Ordering App",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "This is a food ordering app. Leveraging the power of React and integrating seamlessly with Firebase, this project redefines the way you order food. Discover menus, customize your cart, and place orders effortlessly.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "firebase",
                 color: "green-text-gradient",
             },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: foodOrder,
+        source_code_link:
+            "https://github.com/adamye001/Section-17-Project-Food-Order-App",
     },
     {
-        name: "Trip Guide",
+        name: "JavaScript DS and Algo",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This repository contains my notes on data structures, LeetCode problems, and their corresponding solutions. It serves as a resource for learning and practicing JavaScript algorithms and data structures.",
         tags: [
             {
-                name: "nextjs",
+                name: "javaScript",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "data structures",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "algorithms",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: js,
+        source_code_link:
+            "https://github.com/adamye001/JavaScript-Data-Stuctures-and-Algorithms",
     },
 ];
 

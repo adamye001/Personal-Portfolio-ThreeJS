@@ -76,17 +76,13 @@ const Works = () => {
             <div className="w-full flex">
                 <motion.p
                     variants={fadeIn("", "", 0.1, 1)}
-                    className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Urna molestie at elementum eu facilisis sed odio
-                    morbi. Eget aliquet nibh praesent tristique. Posuere lorem
-                    ipsum dolor sit amet consectetur adipiscing elit duis.
-                    Tortor at risus viverra adipiscing at. Amet cursus sit amet
-                    dictum sit amet. In arcu cursus euismod quis viverra nibh
-                    cras pulvinar mattis. Vitae auctor eu augue ut. Eget nulla
-                    facilisi etiam dignissim diam quis enim lobortis
-                    scelerisque.
+                    className="mt-3 text-secondary text-[17px] max-w-6xl leading-[30px]">
+                    Discover my portfolio projects showcased in interactive
+                    cards! Each card features a GitHub logo linking to the
+                    corresponding repository, along with project visuals and a
+                    brief description. Stay tuned for updates as I continue to
+                    add exciting projects to this section. Explore and be
+                    inspired by my coding journey!
                 </motion.p>
             </div>
 

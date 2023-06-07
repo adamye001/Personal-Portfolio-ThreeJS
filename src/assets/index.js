@@ -20,15 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
 
 import lepao from "./company/lepao.png";
 import sakura from "./company/sakura.png";
 import hypeeyes from "./company/hypeeyes.png";
 import yf from "./company/yf.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import foodOrder from "./foodOrder.png";
+import js from "./js.png";
+
 
 import UoM from "./UoM.png";
 
@@ -42,7 +44,6 @@ export {
     menu,
     close,
     css,
-    docker,
     figma,
     git,
     html,
@@ -58,8 +59,9 @@ export {
     sakura,
     hypeeyes,
     yf,
-    carrent,
-    jobit,
-    tripguide,
+    portfolio,
+    foodOrder,
     UoM,
+    nextjs,
+    js
 };
