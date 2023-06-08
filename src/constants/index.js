@@ -209,27 +209,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Adam is an outstanding young person, with both independent study abilities and spirit of teamwork and cooperation.",
+        name: "Mingye Li",
+        designation: "Project Supervisor",
+        company: "University of Melbourne",
+        image: "https://0.academia-photos.com/122572851/30723492/60312330/s200_mingye.li.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Adam is smart, curious, energetic, and entrepreneurial. He is willing to exert himself when pursuing his passion, and he has impressive people skills.",
+        name: "Dr Wei Zhang",
+        designation: "Professor",
+        company: "University of Massachusetts Boston",
+        image: "https://www.umb.edu/editor_uploads/images/faculty_profile_photos/zhang_cm_management_mar11_hb_bio.jpg",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "I was deeply impressed with his management and communication skills. He worked hard to keep our team process on track and led us throughout the semester.",
+        name: "ChunYu Shih",
+        designation: "Bachelor of Science Student",
+        company: "University of Melbourne",
+        image: "https://media.licdn.com/dms/image/C5603AQEGQ-3KOedboA/profile-displayphoto-shrink_200_200/0/1555512482699?e=1691625600&v=beta&t=Rj-DMkPrOex8bO3JmNwxYjBYha1udcePHETAUL3ftGQ",
     },
 ];
 
