@@ -23,7 +23,8 @@ import {
     threejs,
     UoM,
     portfolio,
-    js
+    js,
+    carhub,
 } from "../assets";
 
 export const navLinks = [
@@ -284,7 +285,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "data structures",
+                name: "dataStructures",
                 color: "green-text-gradient",
             },
             {
@@ -295,6 +296,27 @@ const projects = [
         image: js,
         source_code_link:
             "https://github.com/adamye001/JavaScript-Data-Stuctures-and-Algorithms",
+    },
+    {
+        name: "Car Hub",
+        description:
+            "CarHub is a web application that simplifies the process of finding, booking, and renting a car. Whether you need a vehicle for a short trip or an extended rental, CarHub offers a seamless experience to make your car rental process effortless.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nextjs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: carhub,
+        source_code_link: "https://github.com/adamye001/CarHub",
     },
 ];
 

@@ -30,7 +30,7 @@ import yf from "./company/yf.png";
 import portfolio from "./portfolio.png";
 import foodOrder from "./foodOrder.png";
 import js from "./js.png";
-
+import carhub from "./carhub.png";
 
 import UoM from "./UoM.png";
 
@@ -63,5 +63,6 @@ export {
     foodOrder,
     UoM,
     nextjs,
-    js
+    js,
+    carhub,
 };
