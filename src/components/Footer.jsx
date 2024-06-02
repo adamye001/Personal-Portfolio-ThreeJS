@@ -5,7 +5,7 @@ function Footer() {
         <footer class="bg-primary text-center text-white p-2 border-t-2 border-slate-400 mt-10">
             <div class="w-full mx-auto max-w-screen-lg p-4 md:flex md:items-center md:justify-between">
                 <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-                    © 2023 Copyright: Adam Ye
+                    © 2024 Copyright: Adam Ye
                 </span>
                 <div class="flex space-x-10 justify-center max-md:mt-5">
                     <a

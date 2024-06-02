@@ -7,6 +7,8 @@ import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
 
+import dotnet from './tech/dotnet.png';
+import blazor from './tech/blazor.png';
 import css from './tech/css.png';
 import figma from './tech/figma.png';
 import git from './tech/git.png';
@@ -25,6 +27,7 @@ import lepao from './company/lepao.png';
 import sakura from './company/sakura.png';
 import hypeeyes from './company/hypeeyes.png';
 import yf from './company/yf.png';
+import lp from './company/lp.jpg';
 
 import portfolio from './portfolio.png';
 import foodOrder from './foodOrder.png';
@@ -46,6 +49,8 @@ export {
 	css,
 	figma,
 	git,
+	dotnet,
+	blazor,
 	html,
 	javascript,
 	mongodb,
@@ -59,6 +64,7 @@ export {
 	sakura,
 	hypeeyes,
 	yf,
+	lp,
 	portfolio,
 	foodOrder,
 	UoM,

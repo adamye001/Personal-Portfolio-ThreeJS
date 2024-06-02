@@ -14,10 +14,13 @@ import {
 	mongodb,
 	git,
 	figma,
+	dotnet,
+	blazor,
 	nextjs,
 	lepao,
 	hypeeyes,
 	yf,
+	lp,
 	sakura,
 	foodOrder,
 	threejs,
@@ -53,24 +56,44 @@ export const navLinks = [
 
 const services = [
 	{
-		title: 'Web Developer',
+		title: '.NET',
 		icon: web,
 	},
 	{
-		title: 'Frontend Developer',
+		title: 'React.js',
 		icon: mobile,
 	},
 	{
-		title: 'Backend Developer',
+		title: 'Node.js',
 		icon: backend,
 	},
 	{
-		title: 'Content Creator',
+		title: 'SQL',
 		icon: creator,
 	},
 ];
 
 const technologies = [
+	{
+		name: 'DOTNET',
+		icon: dotnet
+	},
+	{
+		name: 'Blazor',
+		icon: blazor,
+	},
+	{
+		name: 'React JS',
+		icon: reactjs,
+	},
+	{
+		name: 'nextjs',
+		icon: nextjs,
+	},
+	{
+		name: 'Node JS',
+		icon: nodejs,
+	},
 	{
 		name: 'HTML 5',
 		icon: html,
@@ -88,40 +111,51 @@ const technologies = [
 		icon: typescript,
 	},
 	{
-		name: 'React JS',
-		icon: reactjs,
-	},
-	{
 		name: 'Redux Toolkit',
 		icon: redux,
-	},
-	{
-		name: 'nextjs',
-		icon: nextjs,
 	},
 	{
 		name: 'Tailwind CSS',
 		icon: tailwind,
 	},
 	{
-		name: 'Node JS',
-		icon: nodejs,
-	},
-	{
 		name: 'MongoDB',
 		icon: mongodb,
-	},
-	{
-		name: 'Three JS',
-		icon: threejs,
 	},
 	{
 		name: 'git',
 		icon: git,
 	},
+];
+
+const experiences = [
 	{
-		name: 'figma',
-		icon: figma,
+		titles: ['Full Stack Software Developer'],
+		company_name: 'LeasePLUS Team Pty Ltd',
+		icon: lp,
+		iconBg: '#ffffff',
+		date: 'Aug 2023 - Present',
+		points: [
+			'Developed a new internal system, consolidating two critical business systems into one platform, supporting a large customer base and handling complex business logic',
+			'Revamped and streamlined the frontend of two websites, collaborating with UI Designers and Marketing, typically completing and deploying tasks within one to two days',
+			'Reviewed and refactored the existing system, proactively implementing new features that helped win new contracts and increase the company\'s business scale',
+			'Generated business reports, designed stored procedures, and configured automated processes, enabling management to make informed decisions and automate business processes, reducing labour costs',
+			'Designed Kanban boards and workflows, improving workflow management, tracking ticket progress during peak periods, and ensuring business requirements were fulfilled, resulting in increased task throughput',
+			'Established and optimised Build and Release Pipelines, improving version control and environment consistency, and reducing manual deployment efforts'
+		],
+	},
+	{
+		titles: ['Software Developer'],
+		company_name: 'Shanghai Lepao Tea Co',
+		icon: lepao,
+		iconBg: '#ffffff',
+		date: 'Nov 2022 - Jun 2023',
+		points: [
+			'Developed the Event Data System using Node.js to build APIs collecting data from numerous devices and PHP for web-based data visualisation, improving data processing efficiency',
+			'Converted business requirements into technical specifications and developed the mobile app frontend, reducing development time and enhancing user experience through direct stakeholder communication',
+			"Managed company accounts on different cloud platforms, ensuring correct configuration and smooth operation of services, and negotiated with providers to reduce costs",
+			'Introduced Agile methodology to the development team, ensuring project progress, improving team collaboration, and maintaining comprehensive project documentation, resulting in an increase in on-time project delivery',
+		],
 	},
 ];
 
@@ -129,72 +163,11 @@ const qualifications = [
 	{
 		title: 'Bachelor of Science',
 		institution: 'The University of Melbourne',
-		major: 'Computing and Software Systems',
 		icon: UoM,
 		iconBg: '#003D86',
 		date: 'Jul 2019 - Nov 2022',
 		points: [
-			'Studied computing and software system topics, including artificial intelligence and software engineering',
-			'Acquired technical skills through research, coursework and practical assignments',
-			'Completed 2 web application projects from scratch with an average score above 80%',
-		],
-	},
-];
-
-const experiences = [
-	{
-		titles: ['Discord Group Administrator'],
-		company_name: 'HypeEyes',
-		icon: hypeeyes,
-		iconBg: '#231F20',
-		date: 'Aug 2021 - Sep 2022',
-		points: [
-			'Promoted from a basic support role to a moderator to an administrator within the HypeEyes Discord group',
-			"Designed and published webhook content using scripts, enhancing the group's functionality and user experience",
-			'Streamlined the process of acquiring fashion goods in the Discord group, organizing and conducting about 100 online live-streamed tutorials for group members',
-			'Achieved the highest response rate among all staff members by handling 244+ member tickets in 3 months',
-		],
-	},
-	{
-		titles: ['Technology Support', 'Marketing Representative'],
-		company_name: 'Sakura Proxy',
-		icon: sakura,
-		iconBg: '#FFF9FD',
-		date: 'Jul 2021 - Nov 2022',
-		points: [
-			'Researched and resolved technical issues using company resources and guidance from colleagues',
-			'Provided suitable solutions or explanations to customers with varying knowledge backgrounds',
-			'Developed marketing strategies based on research of the target market, customer demographics, and behaviours',
-			'Presented marketing strategies to stakeholders for feedback and approval, making revisions as necessary',
-			'Ensured customer issues were resolved satisfactorily and sought feedback to improve the overall experience',
-		],
-	},
-	{
-		titles: ['Business Manager'],
-		company_name: 'YF Studio',
-		icon: yf,
-		iconBg: '#ffffff',
-		date: 'Jan 2019 - Nov 2022',
-		points: [
-			'Utilized automated software tools on AWS and bare metal servers to optimize purchasing processes, ensuring efficient procurement of goods at retail prices from global websites',
-			'Implemented web proxies on AWS and GCP to enhance overall productivity',
-			'Leveraged multiple social media platforms, including YouTube, Discord, and Twitter, to increase brand awareness, engage with followers, and learn from other industry service providers',
-			'Created content strategies aligned with brand goals and engaged with followers to grow reach and credibility, resulting in monthly net profits of 30% and cash flow of $10K - $20K',
-			'Provided fashion goods acquisition services to business partners, negotiating pricing and terms based on the type and volume of items requested and delivering high-quality service with outstanding results',
-		],
-	},
-	{
-		titles: ['Software Developer', 'Sales Representative'],
-		company_name: 'Shanghai Lepao Tea Co',
-		icon: lepao,
-		iconBg: '#ffffff',
-		date: 'Jan 2023 - Present',
-		points: [
-			'Planned and developed a cloud-based data platform and mobile application for IoT products, collaborating with embedded systems engineers and product managers',
-			'Maintained and managed backend servers on Alibaba Cloud and Tencent Cloud platforms',
-			"Pitched 2 sales projects per month for business-to-business sales, including managing the company's customer relationships and interactions",
-			'Established strong rapport with clients through effective communication, understanding needs and tailoring solutions to specific requirements',
-			'Introduced agile methodology to sustain collaboration and continuously improve document repositories, task tracking, and order fulfilment',
+			'Major in Computing and Software Systems',
 		],
 	},
 ];
@@ -225,7 +198,7 @@ const testimonials = [
 		designation: 'Bachelor of Science Student',
 		company: 'University of Melbourne',
 		image:
-			'https://media.licdn.com/dms/image/C5603AQEGQ-3KOedboA/profile-displayphoto-shrink_200_200/0/1555512482699?e=1691625600&v=beta&t=Rj-DMkPrOex8bO3JmNwxYjBYha1udcePHETAUL3ftGQ',
+			'https://media.licdn.com/dms/image/D5635AQH6vl0jc3oQRA/profile-framedphoto-shrink_400_400/0/1692710312084?e=1717938000&v=beta&t=MDhbSA8IDpK1xdOUWJZjiYi89FIkaAZQxGH-3g_oOYQ',
 	},
 ];
 
@@ -250,24 +223,6 @@ const projects = [
 		],
 		image: portfolio,
 		source_code_link: 'https://github.com/adamye001/Personal-Portfolio-ThreeJS',
-	},
-	{
-		name: 'Food Ordering App',
-		description:
-			'This is a food ordering app. Leveraging the power of React and integrating seamlessly with Firebase, this project redefines the way you order food. Discover menus, customize your cart, and place orders effortlessly.',
-		tags: [
-			{
-				name: 'react',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'firebase',
-				color: 'green-text-gradient',
-			},
-		],
-		image: foodOrder,
-		source_code_link:
-			'https://github.com/adamye001/Section-17-Project-Food-Order-App',
 	},
 	{
 		name: 'Car Hub',
@@ -322,28 +277,6 @@ const projects = [
 		],
 		image: airbnb,
 		source_code_link: 'https://github.com/adamye001/Airbnb-Clone',
-	},
-	{
-		name: 'JavaScript DS and Algo',
-		description:
-			'This repository contains my notes on data structures, LeetCode problems, and their corresponding solutions. It serves as a resource for learning and practicing JavaScript algorithms and data structures.',
-		tags: [
-			{
-				name: 'javaScript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'dataStructures',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'algorithms',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: js,
-		source_code_link:
-			'https://github.com/adamye001/JavaScript-Data-Stuctures-and-Algorithms',
 	},
 ];
 

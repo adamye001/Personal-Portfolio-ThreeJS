@@ -43,17 +43,7 @@ const About = () => {
             <motion.p
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]">
-                I'm a skilled web developer with a strong foundation in
-                web application development. I specialize in front-end
-                technologies like React.js, Bootstrap, and Tailwind, and have
-                experience with back-end development using Node.js and MongoDB.
-                I am well-versed in agile methodology, user experience design,
-                and version control systems like Git. With a solid understanding
-                of algorithms and computer systems, I optimize web application
-                performance. My proactive and analytical mindset allows me to
-                tackle challenges effectively. I stay updated with industry
-                trends to enhance my skills. Let's collaborate to create
-                exceptional web experiences.
+                Software developer with over two years of professional experience and a Bachelor of Science in Computing and Software Systems from the University of Melbourne. Proficient in .NET, React, Node.js, and SQL, with a strong foundation in software development principles. Adept at delivering high-quality software solutions that exceed client expectations through innovative problem-solving and collaboration. Enthusiastic about continuous learning and applying cutting-edge technologies to enhance user experience and operational efficiency.
             </motion.p>
             <div className="mt-20 flex flex-wrap gap-10 justify-evenly">
                 {services.map((service, index) => (
